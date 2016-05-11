@@ -2,6 +2,7 @@
   "PAGE_TITLE": "Σχεδιαστής φόρμων",
   "PAGE_CONTENT": "Πως να δημιουργήσεις μια φόρμα για το COBWEB",
   "views.index.Home": "Αρχική",
+  "views.index.Surveys": "Φόρμες",
   "views.index.Design": "Σχεδίασε",
   "directives.language-select.Language": "Γλώσσα"
 }

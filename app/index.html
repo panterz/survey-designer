@@ -26,7 +26,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body ng-controller="AppCtrl">
 
     <div ui-view="header"></div>
     <div ui-view="content" id="container"></div>
@@ -47,8 +47,10 @@
     <script src="../node_modules/angular-dynamic-locale/src/tmhDynamicLocale.js"></script>
 
     <script src="scripts/app.js"></script>
-    <script src="scripts/controllers.js"></script>
+    <script src="scripts/controllers/appCtrl.js"></script>
+    <script src="scripts/controllers/surveysController.js"></script>
     <script src="scripts/services/LocaleService.js"></script>
+    <script src="scripts/services/SurveysService.js"></script>
     <script src="scripts/directives/LanguageSelectDirective.js"></script>
 <!-- endbuild -->
 

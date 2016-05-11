@@ -5,7 +5,7 @@
  * # LanguageSelectDirective
  * Directive to append language select and set its view and behavior
  */
-angular.module('translateApp')
+angular.module('surveyDesignerApp')
   .directive('ngTranslateLanguageSelect', function (LocaleService) {
     'use strict';
 

@@ -1,0 +1,6 @@
+<ul class="dropdown-menu" ng-controller="SurveysController">
+  <li>skata</li>
+  <li ng-repeat="survey in surveys">
+    <a ui-sref="app.surveydetails({id: survey._id})"></a>
+  </li>
+</ul>

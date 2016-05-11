@@ -11,7 +11,7 @@ angular.module('surveyDesignerApp', [
   .constant('DEBUG_MODE', /*DEBUG_MODE*/true/*DEBUG_MODE*/)
   .constant('LOCALES', {
     'locales': {
-      'gr_GR': 'Ελληνικά',
+      'el_GR': 'Ελληνικά',
       'en_GB': 'English'
     },
     'preferredLocale': 'en_GB'
@@ -28,6 +28,10 @@ angular.module('surveyDesignerApp', [
               },
               'content': {
                   templateUrl : 'views/home.html'
+              },
+              'surveys': {
+                  templateUrl: 'views/surveys.html',
+                  controller: 'SurveysController'
               }
           }
       });

@@ -45,6 +45,7 @@
   },
   "dependencies": {
     "angular": "^1.5.5",
+    "angular-cookies": "^1.5.5",
     "angular-dynamic-locale": "^0.1.32",
     "angular-i18n": "^1.5.5",
     "angular-resource": "^1.5.5",
@@ -52,6 +53,7 @@
     "angular-translate": "^2.11.0",
     "angular-translate-handler-log": "^2.11.0",
     "angular-translate-loader-static-files": "^2.11.0",
+    "angular-translate-storage-cookie": "^2.11.0",
     "angular-translate-storage-local": "^2.11.0",
     "angular-ui-router": "^0.2.18",
     "bootstrap": "^3.3.6",
